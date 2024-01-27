@@ -1,0 +1,46 @@
+.demo {
+  height: 200px;
+  width: 200px;
+  background-color: red;
+}
+.photo-library {
+  background-color: #0d0d0d;
+}
+.meal-item .meal-layer {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.meal-layer {
+  transition: all 0.5s ease-in-out;
+}
+.meal-item:hover .meal-layer {
+  top: 0 !important;
+}
+ul li {
+  margin-block: 1rem;
+}
+.nav-home {
+  font-size: 1rem !important;
+  font-weight: 400 !important;
+  background-color: #0d0d0d;
+}
+
+.logo {
+  width: 50px;
+}
+
+aside {
+  width: 25%;
+  left: -250px ;
+}
+
+#nav-btn{
+  cursor: pointer;
+}
+.loading-spinner{
+  display: flex;
+}
+ul li{
+  position: relative;
+  top : 200px;
+  cursor: pointer;
+}

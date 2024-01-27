@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Main Photo Library -->
+
+    <div
+      class="loading-spinner justify-content-center align-items-center text-light bg-black min-vh-100 position-fixed top-0 start-0 end-0 bottom-0 z-3"
+    >
+      <i class="fa-solid fa-spinner fa-spin fa-5x"></i>
+    </div>
+    <main class="">
+      <aside class="position-fixed top-0 z-2 d-flex min-vh-100">
+        <div
+          class="nav-home w-75 d-flex flex-column justify-content-between align-items-start p-4"
+        >
+          <ul class="list-unstyled text-light overflow-hidden">
+            <li>Search</li>
+            <li onclick="getCategories(), closeSideNavBar()">Categories</li>
+            <li>Area</li>
+            <li>Ingrediants</li>
+            <li>Contact Us</li>
+          </ul>
+          <div class="nav-home-footer">
+            <div class="social-icons text-light">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-solid fa-globe"></i>
+            </div>
+            <div class="copyrights">
+              <p class="text-light">Copyright Â© 2019 All Rights Reserved.</p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="nav-controls bg-light d-flex flex-column justify-content-between align-items-center py-3 px-1"
+        >
+          <img src="./img/logo.png" alt="Logo" class="logo" />
+          <i id="nav-btn" class="fa-solid fa-bars fa-2x"></i>
+          <div
+            class="nav-controls-icons gap-2 d-flex flex-column justify-content-center align-items-center text-black"
+          >
+            <i class="fa-solid fa-globe"></i>
+
+            <i class="fa-solid fa-share-nodes"></i>
+          </div>
+        </div>
+      </aside>
+      <section class="photo-library min-vh-100 p-4">
+        <div class="container">
+          <div class="row gy-4"></div>
+        </div>
+      </section>
+    </main>
+
+    <!-- 
+<div class="demo"></div>
+<button class="btn btn-danger">Click</button> -->
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

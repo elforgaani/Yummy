@@ -3,21 +3,27 @@
   width: 200px;
   background-color: red;
 }
+
 .photo-library {
   background-color: #0d0d0d;
 }
+
 .meal-item .meal-layer {
   background-color: rgba(255, 255, 255, 0.8);
 }
+
 .meal-layer {
   transition: all 0.5s ease-in-out;
 }
+
 .meal-item:hover .meal-layer {
   top: 0 !important;
 }
+
 ul li {
   margin-block: 1rem;
 }
+
 .nav-home {
   font-size: 1rem !important;
   font-weight: 400 !important;
@@ -30,17 +36,47 @@ ul li {
 
 aside {
   width: 25%;
-  left: -250px ;
+  left: -18.75%;
 }
 
-#nav-btn{
+#nav-btn {
   cursor: pointer;
 }
-.loading-spinner{
+
+.loading-spinner {
   display: flex;
 }
-ul li{
+
+ul li {
   position: relative;
-  top : 200px;
+  top: 200px;
   cursor: pointer;
+}
+
+.area-item {
+  cursor: pointer;
+}
+
+.custom-input {
+  color: white !important;
+  background-color: #0d0d0d !important;
+}
+
+.search-input input::placeholder {
+  color: rgba(255, 255, 255, 0.4) !important
+}
+
+h6 {
+  color: green;
+  background-color: #CFF4FC;
+}
+
+.meal-item {
+  cursor: pointer;
+}
+
+@media screen and (max-width:900px) {
+  aside {
+    width: 50%;
+  }
 }

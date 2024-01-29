@@ -16,7 +16,7 @@ const openSideNavBar = () => {
   $("ul li").animate({ top: "0" }, 700);
 };
 const closeSideNavBar = () => {
-  toggleNavBar('-18.75%');
+  toggleNavBar(`-${($('aside').width()) * 0.75}`);
   $("#nav-btn").removeClass("fa-x");
   $("#nav-btn").addClass("fa-bars");
   $("ul li").animate({ top: '350px' }, 700);
